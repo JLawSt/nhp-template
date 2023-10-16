@@ -1,25 +1,22 @@
-# Compiled Java class files
-*.class
+# Composer dependencies
+/vendor/
 
-# Package files
-*.jar
-*.war
-*.ear
+# Environment files
+.env
 
-/bin/Main
-
-# Nix build results
-result*
-.nix-gcroots
-
-# IDE
+# IDE / editor files
 .idea/
-*.iml
-.classpath
-.project
-.settings/
-nb-configuration.xml
+.vscode/
 
-# OS-specific files
+# Operating system files
 .DS_Store
 Thumbs.db
+
+# Temporary and cache files
+tmp/
+cache/
+logs/
+
+# Compiled files
+*.sass-cache
+*.scss-cache

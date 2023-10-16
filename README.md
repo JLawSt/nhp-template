@@ -4,4 +4,5 @@
 - Navigate to the project root.
 - Run:
 - $ nix-shell
-- $ javacRun
+- $ php -S 127.0.0.1:8000 -t public
+- Load the following in your browser: http://127.0.0.1:8000
