@@ -1,0 +1,25 @@
+# Compiled Java class files
+*.class
+
+# Package files
+*.jar
+*.war
+*.ear
+
+/bin/Main
+
+# Nix build results
+result*
+.nix-gcroots
+
+# IDE
+.idea/
+*.iml
+.classpath
+.project
+.settings/
+nb-configuration.xml
+
+# OS-specific files
+.DS_Store
+Thumbs.db
